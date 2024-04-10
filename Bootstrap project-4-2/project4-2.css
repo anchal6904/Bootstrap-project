@@ -1,0 +1,163 @@
+.image1{
+    margin-top: 2%;
+    margin-left: 16%;
+    height: 60vh;
+    width:70%;
+    
+}
+#head .first{
+    background-color: rgb(204, 200, 200);
+}
+.two{
+    background-color: rgb(204, 200, 200);
+    height:75vh;
+}
+#section h3{
+    font-size:30px;
+    font-weight: bold;
+}
+#section h3:hover{
+    color: #990099;
+    cursor: pointer;
+}
+#section i{
+    color: #990099;
+}
+#work{
+    background: url('https://th.bing.com/th/id/OIG.At1M2PfEp8JOiLNqrMrr?pid=ImgGn');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#work .blur-background{
+    backdrop-filter: blur(100px);
+}
+#product .imahe{
+    padding:10px;
+}
+#product{
+    padding: 10%;
+}
+#slides{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#slides .one{
+    color: black;
+}
+#history{
+    background-color: #f0f0f5;
+}
+#history .historyarea{
+    background-color: white;
+    margin-left: 6.5rem;
+    height:450px;
+    width:24rem;
+    padding: 30px; 
+}
+#history .historyimage{
+    height: 200px;
+    width:300px;
+    margin-top: 90px;
+    position: relative;
+    z-index: 50;
+}
+#gallary .imgcontainer{
+    position: relative;
+    cursor: pointer;
+}
+#gallary .imgoverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(26, 0, 26);
+    opacity: 0;
+}
+#gallary .imgcontainer:hover .imgoverlay{
+    opacity: 0.5;
+}
+#gallary .imgtext{
+    color: white;
+    position: absolute;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer .container{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+}
+.social{
+    margin: 20px 0;
+}
+.social a{
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.content{
+    font-size: 1.2rem;
+}
+#footer .container .content{
+    padding: 10px 20px ;
+}
+#footer .second{
+    margin-left: 150px;
+}
+#footer .second .mb-3{
+    width: 80%;
+}
+#footer button{
+    padding: 3px 10px;
+}
+@media screen and (max-width:768px) {
+    #header{
+        background-size: 760px 100vh;
+    }
+    #history .historyimage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width:576px) {
+    #header{
+        background-size: 570px 100vh;
+    }
+    #history .historyarea{
+        margin-left: 50px;
+    }
+    #history .historyimage{
+        margin-left: 50px;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width:768px) {
+    #footer .second{
+        margin-left: 5px;
+    }
+    #footer .social{
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width:768px) {
+    #footer .social{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:576px) {
+    #gallary .container{
+        padding-left: 80px;
+    }
+}
